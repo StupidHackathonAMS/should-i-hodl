@@ -40,7 +40,7 @@ $twig = new Twig_Environment($loader);
 $Blockchain = new \Blockchain\Blockchain();
 
 // Determine HODL status
-define("SHOULD_HODL", "YOU SHOULD HODL");
+define("SHOULD_HODL", true);
 
 // Get last market price value of 1 Bitcoin in USD
 $rates = $Blockchain->Rates->get();
@@ -63,12 +63,17 @@ if ($difference < 0) {
     $balance = 'went up';
 }
 
+$shouldHold = '';
+if (SHOULD_HODL) {
+    $shouldHold = 'YOU SHOULD HOLD';
+}
+
 echo $twig->render('index', [
     'currentUSValue' => $currentUSValue,
     'yesterdaysValue' => $yesterdaysAvgBitCoinValue,
     'balance' => $balance,
     'difference' => abs($difference),
-    'shouldHold' => SHOULD_HODL,
+    'shouldHold' => $shouldHold,
 ]);
 
 ?>
