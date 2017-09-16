@@ -1,3 +1,5 @@
+![Always hodl](https://i.imgur.com/w0IrnQx.png)
+
 ## About
 `should-i-hodl` is a state of the art, blockchain.info API powered application that tells you whether you should hold on to your cryptocurrencies, or dump them.
 
