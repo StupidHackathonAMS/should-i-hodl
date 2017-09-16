@@ -19,10 +19,10 @@ $loader = new Twig_Loader_Array([
                             </div>
                         <div class="should-i-hodl-content">
                             <div class="should-i-hodl-content__current">
-                                1 Bitcoin is currently worth <u>${{ currentUSValue }}</u>.
+                                1 Bitcoin is currently worth <u>${{ currentUSValue }}</u>
                             </div>
                             <div class="should-i-hodl-content__yesterday">
-                                  Yesterday, 1 Bitcoin was worth <u>${{ yesterdaysValue }}</u> on average, so it {{ balance }} by <u>${{ difference }}</u>. <br><br>What does this mean for your personal cryptocurrency portfolio?
+                                  Yesterday, 1 Bitcoin was worth <u>${{ yesterdaysValue }}</u> on average, so it {{ balance }} by <u>${{ difference }}</u> <br><br>What does this mean for your personal cryptocurrency portfolio?
                             </div>
                                                       
                         </div>
