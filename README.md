@@ -1,5 +1,5 @@
-## About`
-should-i-hodl` is a state of the art, blockchain.info API powered application that tells you whether you should hold on to your cryptocurrencies, or dump them.
+## About
+`should-i-hodl` is a state of the art, blockchain.info API powered application that tells you whether you should hold on to your cryptocurrencies, or dump them.
 
 
 *What’s HODL? I understand it means HOLD but why do we switch up the last two letters? I haven’t been here long enough. What’s the history?*
