@@ -1,0 +1,40 @@
+body, html {
+    font-family: -apple-system, BlinkMacSystemFont, “Segoe UI”, Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    background: #00d2ff;
+    background: linear-gradient(to right, #3a7bd5, #00d2ff);
+}
+
+.should-i-hodl-container {
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.should-i-hodl-content {
+    max-width: 50%;
+}
+
+.should-i-hodl-content__header {
+    font-size: 6em;
+    line-height: 2em;
+    color: white;
+    font-weight: bold;
+}
+
+.should-i-hodl-content__current,
+.should-i-hodl-content__yesterday {
+    background: linear-gradient(to right, #3a7bd5, #00d2ff);
+    padding: 20px;
+    color: white;
+}
+
+.should-i-hodl-content__holding-status {
+    margin-top: 50px;
+    font-size: 4em;
+    line-height: 1em;
+    color: white;
+    font-weight: bold;
+}
