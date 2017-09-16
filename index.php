@@ -14,19 +14,21 @@ $loader = new Twig_Loader_Array([
             </head>
                 <body>
                     <div class="should-i-hodl-container">
-                        <div class="should-i-hodl-content">
-                            <div class="should-i-hodl-content__header">
+                        <div class="should-i-hodl__header">
                                    Should I Hodl? 🤔
                             </div>
+                        <div class="should-i-hodl-content">
                             <div class="should-i-hodl-content__current">
                                 1 Bitcoin is currently worth <u>${{ currentUSValue }}</u>.
                             </div>
                             <div class="should-i-hodl-content__yesterday">
-                                  Yesterday, 1 Bitcoin was worth <u>${{ yesterdaysValue }}</u> on average - so Bitcoin {{ balance }} by ${{ difference }}.                            <div class="should-i-hodl-content__holding-status">
-                                  This means <br>{{ shouldHold }}.
+                                  Yesterday, 1 Bitcoin was worth <u>${{ yesterdaysValue }}</u> on average, so it {{ balance }} by <u>${{ difference }}</u>. <br><br>What does this mean for your personal cryptocurrency portfolio?
                             </div>
-                            </div>
+                                                      
                         </div>
+                           <div class="should-i-hodl-content__holding-status">
+                                 👉 {{ shouldHold }}.
+                            </div>
                     </div>
                 </body>
             </html>
