@@ -1,5 +1,5 @@
 <?php
-require_once(dirname(__DIR__) . '/should-i-hodl/vendor/autoload.php');
+require_once __DIR__ . '/vendor/autoload.php';
 
 $loader = new Twig_Loader_Array([
     'index' =>
