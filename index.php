@@ -29,6 +29,10 @@ $loader = new Twig_Loader_Array([
                            <div class="should-i-hodl-content__holding-status">
                                  👉 {{ shouldHold }}.
                             </div>
+                            <div class="should-i-hodl-content__about">
+                                 Made with 💛  by <a href="https://twitter.com/helenasometimes">Nienke</a> during the Stupid Hackathon Amsterdam, 2017 <br>
+                                 <a href="https://github.com/StupidHackathonAMS/should-i-hodl">Source code</a>
+                            </div>
                     </div>
                 </body>
             </html>
@@ -77,4 +81,3 @@ echo $twig->render('index', [
 ]);
 
 ?>
-

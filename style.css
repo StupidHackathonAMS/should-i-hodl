@@ -6,6 +6,14 @@ body, html {
     background: linear-gradient(to right, #3a7bd5, #00d2ff);
 }
 
+a {
+   color: #1370b7;
+}
+
+a:hover {
+    color: #d16a17;
+}
+
 .should-i-hodl-container {
     margin: 100px;
     display: flex;
@@ -51,6 +59,15 @@ body, html {
     margin-top: 60px;
 }
 
+.should-i-hodl-content__about {
+    margin-top: 120px;
+    padding: 10px;
+    background-color: #efa530;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+}
+
 @media screen and (max-width: 992px) {
     .should-i-hodl__header {
         font-size: 3em;
@@ -58,5 +75,13 @@ body, html {
 
     .should-i-hodl-container {
         margin: 20px;
+    }
+
+    .should-i-hodl-content {
+        background: linear-gradient(to left, #3a7bd5, #00d2ff);
+    }
+
+    .should-i-hodl-content__about {
+        margin-top: 60px;
     }
 }
