@@ -23,4 +23,4 @@ So basically this application is for those too dumb to understand trading, but t
 * If the balance is negative, YOU HOLD
 
 ## Where can I see if I should hold or not?
-[should-i-hodl on Heroku](https://should-i-hodl.herokuapp.com/)
+[should-i-hodl on Heroku](https://should-i-hodl.herokuapp.com/) (if it's slow, give it a sec - Heroku puts apps that haven't been active for 30 minutes to sleep)
